@@ -1,0 +1,16 @@
+Windows to Debian Cursor Alignment
+
+Normal cursor should be named 'left_ptr' or 'arrow'
+Help cursor should be copied multiple times as 'gumby', 'question_arrow'
+Working cursor should be named 'left_ptr_watch'
+Busy cursor should be named 'watch'
+Handwriting cursor should be named 'pencil'
+Beam/Insertion should be named 'xterm'
+NWSE/Diag Resize I should be copied multiple times as 'top_left_corner' and 'bottom_right_corner'
+NESW/Diag Resize II should be copied multiple times as 'top_right_corner' and 'bottom_left_corner'
+WE/Horizontal Cursors should be copied multiple times as 'left_side' and 'right_side'
+NS/Vertical cursors should be copied multiple times as 'v_double_arrow', 
+Move cursors should be copied multiple times as 'fleur', 'grabbing' and 'size_all'
+No/Unavailable cursors should be named 'crossed_circle', 'no-drop'
+Up/Alternative Select should be copied multiple times as 'center_ptr'
+Link Select cursors should be named 'link'
