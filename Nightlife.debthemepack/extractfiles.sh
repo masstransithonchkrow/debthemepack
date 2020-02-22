@@ -1,4 +1,9 @@
 #!/bin/bash
+########################################################
+# File Extraction Script for Nightlife
+# by The Mass Transit Honchkrow
+# This script requires elevation
+########################################################
 
 echo "Thank you for choosing Nightlife, ported over from Windows 10 by The Mass Transit Honchkrow, based on a theme by Patina's Treasures (4nlifep)."
 
