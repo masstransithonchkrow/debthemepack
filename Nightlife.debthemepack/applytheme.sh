@@ -19,6 +19,9 @@ echo "Applying Wallpaper..."
 
 gsettings set org.gnome.desktop.background picture-uri 'file:////usr/share/themes/Nightlife/DesktopBackground/nightlife.jpg'
 
+echo "Done!"
+exit
+
 
 
 
