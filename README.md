@@ -10,7 +10,7 @@ I'm trying to recreate the convenience of DeskThemePacks (currently available to
 <h2>What should I expect?</h2>
 <p>This repository is the sum of most of my efforts. It relies on shell scripts, consistent folder placement and the porting out of resources using Windows-centric apps to make it happen. This is an effort to make Ubuntu easier to transition to. Because customization is more unnbound in Linux, I feel this is a better challenge for me than simply 'Theming Like It's 1999'.</p> <br />
 <h2>Do you have examples of existing work?</h2>
-<p id="outset">Yes, I do. Discover more of my efforts on Windows <a href="https://www.deviantart.com/masstransitkrow/gallery/63454312/deskthemepacks" title="DeskThemePack Gallery | MassTransitKrow on DeviantArt" target="_blank">here</a>. I will include screengrabs from my Ubuntu installation as a way to show visual progress.</p><br />
+<p id="outset">Yes, I do. Discover more of my efforts on Windows <a href="https://365stops.org/deskthemepack" title="DeskThemePack Gallery | 365stops.ORG" target="_blank">here</a>. Some will still link to my DeviantArt page or the pages of others who have helped me port these themes. I will include screengrabs from my Ubuntu installation as a way to show visual progress.</p><br />
 <h2>What should the finished product look like?</h2>
 <p>The finished product should be structured in a way that when it is extracted, it will merge with any similarly named folders on your system. Such decompression will reqire elevation as system files are appended. Unlike Windows, where Themes are stored in a user folder, themes in Linux are stored in folders outside 'Home'. If you believe there is a better way, I'm all ears. I want to avoid elevation whenever possible.</p><br />
 <h2>License</h2>
