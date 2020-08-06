@@ -13,6 +13,10 @@ echo "Changing To Icon Dark Theme..."
 
 dconf write /org/cinnamon/desktop/interface/icon-theme "'Mint-Y-Dark-Red'"
 
+echo "Changing System UI controls..."
+
+dconf write /org/cinnamon/desktop/interface/gtk-theme "'Mint-Y-Dark-Red'"
+
 echo "Change complete."
 
 exit
