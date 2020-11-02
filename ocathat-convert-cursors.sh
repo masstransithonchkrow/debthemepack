@@ -56,10 +56,10 @@ xcursorgen up.cursor ~/.icons/Cat_In_The_Hat/cursors/center_ptr
 xcursorgen link.cursor ~/.icons/Cat_In_The_Hat/cursors/link
 
 #Part 4 - Copy remaining dependencies
-cp ../Fantasy_R/DesktopBackground/*.* ~/.themes/Cat_In_The_Hat/DesktopWallpaper
+cp ../Cat_in_th/DesktopBackground/*.* ~/.themes/Cat_In_The_Hat/DesktopWallpaper
 
 #Part 5 - Copy Sounds
-cp ../Fantasy_R/*.wav ~/.themes/Cat_In_The_Hat/sounds
+cp ../Cat_in_th/*.wav ~/.themes/Cat_In_The_Hat/sounds
 
 exit
 
