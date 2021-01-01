@@ -4,21 +4,21 @@
 #This script converts the PNG files I extracted into X11 format.
 
 #Part 1 - create the cursor configuration files from extracted PNG frames
-echo -e 32 0 0 arrow0.png 120"\r"32 0 0 arrow1.png 120 > normal.cursor
-echo -e 32 0 0 help-0.png 120"\r"32 0 0 help-1.png 120 > help.cursor
-echo -e 32 0 0 busy-0.png 120"\r"32 0 0 busy-1.png 120"\r"32 0 0 busy-2.png 120"\r"32 0 0 busy-3.png 120"\r"32 0 0 busy-4.png 120"\r"32 0 0 busy-5.png 120"\r"32 0 0 busy-6.png 120"\r"32 0 0 busy-7.png 120"\r"32 0 0 busy-8.png 120"\r"32 0 0 busy-9.png 120"\r"32 0 0 busy-10.png 120"\r"32 0 0 busy-11.png 120"\r"32 0 0 busy-12.png 120"\r"32 0 0 busy-13.png 120"\r"32 0 0 busy-14.png 120"\r"32 0 0 busy-15.png 120"\r"32 0 0 busy-16.png 120"\r"32 0 0 busy-17.png 120"\r"32 0 0 busy-18.png 120"\r"32 0 0 busy-19.png 120 > busy.cursor
-echo -e 32 15 15 cross-0.png 120"\r"32 15 15 cross-1.png 120 > cross.cursor
-echo -e 32 15 15 diagonal1-0.png 120"\r"32 15 15 diagonal1-1.png 120 > diagonal1.cursor
-echo -e 32 15 15 diagonal2-0.png 120"\r"32 15 15 diagonal2-1.png 120 > diagonal2.cursor
-echo -e 32 15 15 ns-0.png 120"\r"32 15 15 ns-1.png 120 > ns.cursor
-echo -e 32 15 15 we-0.png 120"\r"32 15 15 we-1.png 120 > we.cursor
-echo -e 32 15 15 no-0.png 120"\r"32 15 15 no-1.png 120 > no.cursor
-echo -e 32 15 15 move-0.png 120"\r"32 15 15 move-1.png 120 > move.cursor
-echo -e 32 5 10 ibeam-0.png 120"\r"32 5 10 cross-1.png 120 > ibeam.cursor
-echo -e 32 5 0 up-0.png 120"\r"32 5 0 up-1.png 120 > up.cursor
-echo -e 32 0 0 pen-0.png 120"\r"32 0 0 pen-1.png 120 > pen.cursor
-echo -e 32 0 0 working-0.png 120"\r"32 0 0 working-1.png 120"\r"32 0 0 working-2.png 120"\r"32 0 0 working-3.png 120"\r"32 0 0 working-4.png 120"\r"32 0 0 working-5.png 120"\r"32 0 0 working-6.png 120"\r"32 0 0 working-7.png 120"\r"32 0 0 working-8.png 120"\r"32 0 0 working-9.png 120"\r"32 0 0 working-10.png 120"\r" > working.cursor
-echo -e 32 0 0 link-0.png 120"\r"32 0 0 link-1.png 120"\r"32 0 0 link-2.png 120"\r"32 0 0 link-3.png 120"\r"32 0 0 link-4.png 120"\r"32 0 0 link-5.png 120"\r"32 0 0 link-6.png 120"\r"32 0 0 link-7.png 120"\r"32 0 0 link-8.png 120"\r"32 0 0 link-9.png 120"\r"32 0 0 link-10.png 120"\r"32 0 0 link-11.png 120"\r"32 0 0 link-12.png 120"\r"32 0 0 link-13.png 120"\r"32 0 0 link-14.png 120"\r"32 0 0 link-15.png 120"\r"32 0 0 link-16.png 120"\r"32 0 0 link-17.png 120"\r"32 0 0 link-18.png 120"\r"32 0 0 link-19.png 120"\r"32 0 0 link-20.png 120"\r" > link.cursor
+echo -e 32 0 0 arrow0.png 120"\n"32 0 0 arrow1.png 120 > normal.cursor
+echo -e 32 0 0 help-0.png 120"\n"32 0 0 help-1.png 120 > help.cursor
+echo -e 32 0 0 busy-0.png 120"\n"32 0 0 busy-1.png 120"\n"32 0 0 busy-2.png 120"\n"32 0 0 busy-3.png 120"\n"32 0 0 busy-4.png 120"\n"32 0 0 busy-5.png 120"\n"32 0 0 busy-6.png 120"\n"32 0 0 busy-7.png 120"\n"32 0 0 busy-8.png 120"\n"32 0 0 busy-9.png 120"\n"32 0 0 busy-10.png 120"\n"32 0 0 busy-11.png 120"\n"32 0 0 busy-12.png 120"\n"32 0 0 busy-13.png 120"\n"32 0 0 busy-14.png 120"\n"32 0 0 busy-15.png 120"\n"32 0 0 busy-16.png 120"\n"32 0 0 busy-17.png 120"\n"32 0 0 busy-18.png 120"\n"32 0 0 busy-19.png 120 > busy.cursor
+echo -e 32 15 15 cross-0.png 120"\n"32 15 15 cross-1.png 120 > cross.cursor
+echo -e 32 15 15 diagonal1-0.png 120"\n"32 15 15 diagonal1-1.png 120 > diagonal1.cursor
+echo -e 32 15 15 diagonal2-0.png 120"\n"32 15 15 diagonal2-1.png 120 > diagonal2.cursor
+echo -e 32 15 15 ns-0.png 120"\n"32 15 15 ns-1.png 120 > ns.cursor
+echo -e 32 15 15 we-0.png 120"\n"32 15 15 we-1.png 120 > we.cursor
+echo -e 32 15 15 no-0.png 120"\n"32 15 15 no-1.png 120 > no.cursor
+echo -e 32 15 15 move-0.png 120"\n"32 15 15 move-1.png 120 > move.cursor
+echo -e 32 5 10 ibeam-0.png 120"\n"32 5 10 cross-1.png 120 > ibeam.cursor
+echo -e 32 5 0 up-0.png 120"\n"32 5 0 up-1.png 120 > up.cursor
+echo -e 32 0 0 pen-0.png 120"\n"32 0 0 pen-1.png 120 > pen.cursor
+echo -e 32 0 0 working-0.png 120"\n"32 0 0 working-1.png 120"\n"32 0 0 working-2.png 120"\n"32 0 0 working-3.png 120"\n"32 0 0 working-4.png 120"\n"32 0 0 working-5.png 120"\n"32 0 0 working-6.png 120"\n"32 0 0 working-7.png 120"\n"32 0 0 working-8.png 120"\n"32 0 0 working-9.png 120"\n"32 0 0 working-10.png 120 > working.cursor
+echo -e 32 0 0 link-0.png 120"\n"32 0 0 link-1.png 120"\n"32 0 0 link-2.png 120"\n"32 0 0 link-3.png 120"\n"32 0 0 link-4.png 120"\n"32 0 0 link-5.png 120"\n"32 0 0 link-6.png 120"\n"32 0 0 link-7.png 120"\n"32 0 0 link-8.png 120"\n"32 0 0 link-9.png 120"\n"32 0 0 link-10.png 120"\n"32 0 0 link-11.png 120"\n"32 0 0 link-12.png 120"\n"32 0 0 link-13.png 120"\n"32 0 0 link-14.png 120"\n"32 0 0 link-15.png 120"\n"32 0 0 link-16.png 120"\n"32 0 0 link-17.png 120"\n"32 0 0 link-18.png 120"\n"32 0 0 link-19.png 120"\n"32 0 0 link-20.png 120 > link.cursor
 
 #Part 2 - Make the necessary directories at home
 mkdir ~/.icons/Fantasy_Railroad
@@ -58,8 +58,11 @@ xcursorgen link.cursor ~/.icons/Fantasy_Railroad/cursors/link
 #Part 4 - Copy remaining dependencies
 cp ../Fantasy_R/DesktopBackground/*.* ~/.themes/Fantasy_Railroad/DesktopWallpaper
 
-#Part 5 - Copy Sounds
-cp ../Fantasy_R/*.wav ~/.themes/Fantasy_Railroad/sounds
+#Part 5 - Copy Sounds - use Sound Converter GTK to convert to OGG
+cp ../Fantasy_R/*.ogg ~/.themes/Fantasy_Railroad/sounds
+
+#Part 6 - copy icons - convert them to PNG using XnView
+cp ../Fantasy_R/*.png ~/.icons/Fantasy_Railroad/icons
 
 exit
 
