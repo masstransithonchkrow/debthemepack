@@ -1,5 +1,5 @@
 #!/bin/bash
-# Cursor Conversion Script for Kingdom Hearts Final Mix (ocathat)
+# Cursor Conversion Script for Kingdom Hearts Final Mix (khfm)
 #This file must be located in the cursorPNG directory to work.
 #This script converts the PNG files I extracted into X11 format.
 
@@ -54,6 +54,8 @@ xcursorgen no.cursor ~/.icons/Kingdom_Hearts_Final_Mix/cursors/crossed_circle
 xcursorgen no.cursor ~/.icons/Kingdom_Hearts_Final_Mix/cursors/no_drop
 xcursorgen up.cursor ~/.icons/Kingdom_Hearts_Final_Mix/cursors/center_ptr
 xcursorgen link.cursor ~/.icons/Kingdom_Hearts_Final_Mix/cursors/link
+xcursorgen link.cursor ~/.icons/Kingdom_Hearts_Final_Mix/cursors/hand1
+xcursorgen link.cursor ~/.icons/Kingdom_Hearts_Final_Mix/cursors/hand2
 
 #Part 4 - Copy remaining dependencies
 cp ../Kingdom_H/DesktopBackground/*.* ~/.themes/Kingdom_Hearts_Final_Mix/DesktopWallpaper

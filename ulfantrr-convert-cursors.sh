@@ -54,6 +54,8 @@ xcursorgen no.cursor ~/.icons/Fantasy_Railroad/cursors/crossed_circle
 xcursorgen no.cursor ~/.icons/Fantasy_Railroad/cursors/no_drop
 xcursorgen up.cursor ~/.icons/Fantasy_Railroad/cursors/center_ptr
 xcursorgen link.cursor ~/.icons/Fantasy_Railroad/cursors/link
+xcursorgen link.cursor ~/.icons/Fantasy_Railroad/cursors/hand1
+xcursorgen link.cursor ~/.icons/Fantasy_Railroad/cursors/hand2
 
 #Part 4 - Copy remaining dependencies
 cp ../Fantasy_R/DesktopBackground/*.* ~/.themes/Fantasy_Railroad/DesktopWallpaper

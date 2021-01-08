@@ -55,6 +55,8 @@ xcursorgen no.cursor ~/.icons/Riding_Trains/cursors/crossed_circle
 xcursorgen no.cursor ~/.icons/Riding_Trains/cursors/no_drop
 xcursorgen up.cursor ~/.icons/Riding_Trains/cursors/center_ptr
 xcursorgen link.cursor ~/.icons/Riding_Trains/cursors/link
+xcursorgen link.cursor ~/.icons/Riding_Trains/cursors/hand1
+xcursorgen link.cursor ~/.icons/Riding_Trains/cursors/hand2
 
 #Part 4 - Copy remaining dependencies
 cp ../Riding_Tr/DesktopBackground/*.* ~/.themes/Riding_Trains/DesktopWallpaper

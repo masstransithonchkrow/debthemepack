@@ -17,16 +17,16 @@ echo -e 32 15 15 move.png > move.cursor
 echo -e 32 14 20 ibeam.png > ibeam.cursor
 echo -e 32 5 0 alt.png > up.cursor
 echo -e 32 0 0 pen.png > pen.cursor
-echo -e 32 0 0 wait-0.png 100"\n"32 0 0 wait-1.png 100"\n"32 0 0 wait-2.png 100"\n"32 0 0 wait-3.png 100"\n"32 0 0 wait-4.png 100"\n"32 0 0 wait-5.png 100 > working.cursor
+echo -e 32 0 0 wait-0.png 100"\n"32 0 0 wait-1.png 100"\n"32 0 0 wait-2.png 100"\n"32 0 0 wait-3.png 100"\n"32 0 0 wait-4.png 100 > working.cursor
 echo -e 32 0 0 link.png > link.cursor
 
 #Part 2 - Make the necessary directories at home
 mkdir ~/.icons/Cat_In_The_Hat
-#mkdir ~/.icons/Cat_In_The_Hat/icons
+mkdir ~/.icons/Cat_In_The_Hat/icons
 mkdir ~/.icons/Cat_In_The_Hat/cursors
-#mkdir ~/.themes/Cat_In_The_Hat
-#mkdir ~/.themes/Cat_In_The_Hat/DesktopWallpaper
-#mkdir ~/.themes/Cat_In_The_Hat/sounds
+mkdir ~/.themes/Cat_In_The_Hat
+mkdir ~/.themes/Cat_In_The_Hat/DesktopWallpaper
+mkdir ~/.themes/Cat_In_The_Hat/sounds
 
 #Part 3 - convert cursor configuration files into actual X11 cursors
 xcursorgen normal.cursor ~/.icons/Cat_In_The_Hat/cursors/left_ptr
@@ -54,6 +54,8 @@ xcursorgen no.cursor ~/.icons/Cat_In_The_Hat/cursors/crossed_circle
 xcursorgen no.cursor ~/.icons/Cat_In_The_Hat/cursors/no_drop
 xcursorgen up.cursor ~/.icons/Cat_In_The_Hat/cursors/center_ptr
 xcursorgen link.cursor ~/.icons/Cat_In_The_Hat/cursors/link
+xcursorgen link.cursor ~/.icons/Cat_In_The_Hat/cursors/hand1
+xcursorgen link.cursor ~/.icons/Cat_In_The_Hat/cursors/hand2
 
 #Part 4 - Copy remaining dependencies
 cp ../Cat_in_th/DesktopBackground/*.* ~/.themes/Cat_In_The_Hat/DesktopWallpaper

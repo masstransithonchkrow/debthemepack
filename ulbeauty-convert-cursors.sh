@@ -54,6 +54,8 @@ xcursorgen no.cursor ~/.icons/Beauty_of_the_Fury/cursors/crossed_circle
 xcursorgen no.cursor ~/.icons/Beauty_of_the_Fury/cursors/no_drop
 xcursorgen up.cursor ~/.icons/Beauty_of_the_Fury/cursors/center_ptr
 xcursorgen link.cursor ~/.icons/Beauty_of_the_Fury/cursors/link
+xcursorgen link.cursor ~/.icons/Beauty_of_the_Fury/cursors/hand1
+xcursorgen link.cursor ~/.icons/Beauty_of_the_Fury/cursors/hand2
 
 #Part 4 - Copy remaining dependencies
 cp ../Beauty_Of/DesktopBackground/*.* ~/.themes/Beauty_of_the_Fury/DesktopWallpaper

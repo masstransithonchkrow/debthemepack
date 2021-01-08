@@ -1,5 +1,5 @@
 #!/bin/bash
-# Cursor Conversion Script for Twilight Town 2.1 (ocathat)
+# Cursor Conversion Script for Twilight Town 2.1 (twiltown)
 #This file must be located in the cursorPNG directory to work.
 #This script converts the PNG files I extracted into X11 format.
 
@@ -54,6 +54,8 @@ xcursorgen no.cursor ~/.icons/Twilight_Town_2.1/cursors/crossed_circle
 xcursorgen no.cursor ~/.icons/Twilight_Town_2.1/cursors/no_drop
 xcursorgen up.cursor ~/.icons/Twilight_Town_2.1/cursors/center_ptr
 xcursorgen link.cursor ~/.icons/Twilight_Town_2.1/cursors/link
+xcursorgen link.cursor ~/.icons/Twilight_Town_2.1/cursors/hand1
+xcursorgen link.cursor ~/.icons/Twilight_Town_2.1/cursors/hand2
 
 #Part 4 - Copy remaining dependencies
 cp ../Twilight_/DesktopBackground/*.* ~/.themes/Twilight_Town_2.1/DesktopWallpaper
