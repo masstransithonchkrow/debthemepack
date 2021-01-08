@@ -9,7 +9,7 @@ I'm trying to recreate the convenience of DeskThemePacks (currently available to
 <h2>What should I expect?</h2>
 <p>This repository is the sum of most of my efforts. It relies on shell scripts, consistent folder placement and the porting out of resources using Windows-centric apps to make it happen. This is an effort to make Unix easier to transition to. Because customization is more unbound in Linux, I feel this is a better challenge for me than simply 'Theming Like It's 1999'.</p> <br />
 <h2>Do you have examples of existing work?</h2>
-<p id="outset">Yes, I do. I am currently overhauling my DeskThemePack page and will enter debthemepacks under a new campaign. Once assembled, I will cross reference them accordingly. DebTheemPacks will have their own page.</p><br />
+<p id="outset">Yes, I do. I am currently overhauling my DeskThemePack page and will enter debthemepacks under a new campaign. Once assembled, I will cross reference them accordingly. DebThemePacks will have their own page.</p><br />
 <h2>What should the finished product look like?</h2>
 <p>A true finished product isn't the intention. Unlike other X11 resources on this site, this is designed to rely on bash, which comes with Linux. I see NO NEED to use Python to achieve the expected effect, which is to convert Windows cursors by extracting their PNG frames, into X11 compatible cursors, which use those frames. I am doing all the hit and miss by testing these out in the field so you don't have to.</p><br />
 <h2>License</h2>
