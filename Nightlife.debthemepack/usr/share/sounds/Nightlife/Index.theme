@@ -1,7 +1,0 @@
-[Sound Theme]
-Name=Nightlife
-Inherit=Ubuntu
-Directories=stereo
-
-[stereo]
-OutputProfile=stereo
